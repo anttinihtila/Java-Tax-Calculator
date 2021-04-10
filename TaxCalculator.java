@@ -17,9 +17,7 @@ public class TaxCalculator {
         tax=n1*n2/100;
         nontax=n1-tax;
 
-        JOptionPane.showMessageDialog(null, "Tax: " + tax +" e" , "Tax Calculator", JOptionPane.PLAIN_MESSAGE );
-        JOptionPane.showMessageDialog(null, "Price without tax: " + nontax +" e" , "Tax Calculator", JOptionPane.PLAIN_MESSAGE );
-        
+        JOptionPane.showMessageDialog(null, "Tax: " +tax +" e\n" +"Price without tax: " +nontax +" e", "Tax Calculator", JOptionPane.PLAIN_MESSAGE );
+
         System.exit(0);
     }
-}
