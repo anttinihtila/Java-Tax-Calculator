@@ -8,10 +8,10 @@ public class TaxCalculator {
         String num1, num2;
         float n1, n2, tax, nontax;
 
-        num1 = JOptionPane.showInputDialog(null, "Price?", "Tax Calculator", JOptionPane.QUESTION_MESSAGE);
+        num1 = JOptionPane.showInputDialog(null, "Price? ", "Tax Calculator", JOptionPane.QUESTION_MESSAGE);
         n1 = Float.parseFloat(num1);
 
-        num2 = JOptionPane.showInputDialog(null, "Tax percent?", "Tax Calculator", JOptionPane.QUESTION_MESSAGE);
+        num2 = JOptionPane.showInputDialog(null, "Tax percent? ", "Tax Calculator", JOptionPane.QUESTION_MESSAGE);
         n2 = Float.parseFloat(num2);
 
         tax=n1*n2/100;
